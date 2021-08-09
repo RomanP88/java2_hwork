@@ -1,22 +1,24 @@
-package java3_hw1;
+package java3;
 
-import java3_hw1.fruits.Apple;
-import java3_hw1.fruits.Box;
+import java3.fruits.Apple;
+import java3.fruits.Box;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
-
     public static void main(String[] args) {
 
-        String [] arr = {"trt", "qq", "ty"};
+        String [] arr = {"trt", "qw", "ty"};
         ArrayList<String> al = arrayToList(arr);
         System.out.println(al);
 
         Box<Apple> box = new Box<>();
         box.add(new Apple());
         System.out.println(box);
+
+
+
     }
 
     public static <T> ArrayList<T> arrayToList(T[] arr){

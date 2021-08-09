@@ -1,10 +1,10 @@
-package java3_hw1.fruits;
+package java3.fruits;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Box <T extends Fruit> {
+public class Box <T extends Fruit>{
     private List<T> container;
 
     public Box() {
