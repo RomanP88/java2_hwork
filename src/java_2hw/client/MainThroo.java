@@ -1,3 +1,5 @@
+package java_2hw.client;
+
 import java.util.Arrays;
 
 public class MainThroo {

@@ -4,13 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Box <T extends Fruit>{
+public class Box<T extends Fruit>{
 
     private List <T> container;
-
-
-
-
 
     public Box() {
         this.container = new ArrayList<>();
@@ -19,8 +15,6 @@ public class Box <T extends Fruit>{
     public Box(T... fruits) {
         this.container = new ArrayList<>(Arrays.asList(fruits));
     }
-
-
 
     public float getWeight(){
         float weight = 0.0f;
@@ -42,9 +36,7 @@ public class Box <T extends Fruit>{
         another.container.addAll(this.container);
             this.container.clear();
 
-
     }
-
 
     public void add(T fruit ){
         container.add(fruit);

@@ -10,14 +10,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String [] arr = {"trt", "qw", "ty"};
+        ArrayList<String> al = arrayToList(arr);
+        System.out.println(al);
 
-
+        Box<Apple> box = new Box<>();
+        box.add(new Apple());
+        System.out.println(box);
 
 
 
     }
-
-
 
     public static <T> ArrayList<T> arrayToList(T[] arr){
         return  new ArrayList<>(Arrays.asList(arr));
