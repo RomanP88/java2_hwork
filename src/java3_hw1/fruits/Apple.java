@@ -1,7 +1,7 @@
 package java3_hw1.fruits;
 
 public class Apple extends Fruit{
-    public Apple(float weight) {
+    public Apple() {
         super(1.0f);
     }
 }
