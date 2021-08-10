@@ -1,4 +1,4 @@
-package java3_hw1.fruits;
+package java3.fruits;
 
 public class Apple extends Fruit{
     public Apple() {

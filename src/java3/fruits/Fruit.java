@@ -1,6 +1,7 @@
-package java3_hw1.fruits;
+package java3.fruits;
 
 public class Fruit {
+
     private float weight;
 
     public float getWeight() {
