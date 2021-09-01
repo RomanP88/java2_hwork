@@ -1,4 +1,4 @@
-package java_2hw.client;
+package java_2hw;
 
 import java.util.Arrays;
 
